@@ -16,12 +16,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Maps(View view) {
+        startActivity(new Intent(MainActivity.this,MapsActivity.class));
     }
 
     public void News(View view) {
+        startActivity(new Intent(MainActivity.this,NewsActivity.class));
     }
 
     public void Social(View view) {
+        startActivity(new Intent(MainActivity.this,FbActivity.class));
     }
 
     public void Course(View view) {
